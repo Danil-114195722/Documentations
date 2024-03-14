@@ -7,11 +7,11 @@
 
 ### 3) Go to project's [manage][project-manage] and select your new project
 
-![screen_proj_manage.png](screen_proj_manage.png)
+![screen_proj_manage.png](./img/screen_proj_manage.png)
 
 ### 4) Go to project's settings
 
-![screen_go_to_proj_settings.png](screen_go_to_proj_settings.png)
+![screen_go_to_proj_settings.png](./img/screen_go_to_proj_settings.png)
 
 ### 5) Choose "IAM & Admin" from navigation menu -> "Service accounts"
 
@@ -53,7 +53,7 @@
 
 ### 2) Go to "APIs & Services"
 
-![go_to_api_overview.png](go_to_api_overview.png)
+![go_to_api_overview.png](./img/go_to_api_overview.png)
 
 ### 3) Select "Enable APIs and services" in menu
 
