@@ -8,3 +8,4 @@
 - _[How](./ShadowsocksInstallaiton) to set up shadowsocks proxy_
 - _[How](./GetGoogleAPIKey) to create Google Cloud service account and API Key to your app_
 - _[How](./NginxSSL) to install Nginx on server and up certbot for automatic SSL release_
+- _[How](./MailServer) to set up your own mail server_
