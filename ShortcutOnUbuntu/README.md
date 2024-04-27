@@ -47,5 +47,7 @@ Categories=
 
 4. Refresh desktop environment:
 ```shell
-sudo update-desktop-database
+update-desktop-database ~/.local/share/applications
+# or
+update-desktop-database /usr/share/applications
 ```
