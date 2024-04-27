@@ -27,11 +27,9 @@ Exec=/full/path/to/your/executable/file-command.sh
 Terminal=false
 # OR this
 Terminal=true
-TerminalOptions=\s--noclose
 
 Type=Application
 Icon=/full/path/to/your-icon.png
-Categories=
 ```
 
 ### Short description for every property:
@@ -41,13 +39,29 @@ Categories=
 * **Type** : Set it to application
 * **Icon** : Path of the application logo.
 * **Comment** : A brief description of the application.
-* **Categories** : Categories that describe the application(e.g., Development, Office)
 * **Terminal** : Set it to false if the application doesn't require terminal.
 * **StartupNotify** : Set it to true to show a notification when the application starts.
 
 4. Refresh desktop environment:
 ```shell
-update-desktop-database ~/.local/share/applications
-# or
-sudo update-desktop-database /usr/share/applications
+sudo update-desktop-database && update-desktop-database ~/.local/share/applications
+```
+
+
+
+## Sample
+
+```shell
+[Desktop Entry]
+Name=Translator
+Comment=My terminal translator
+
+#Exec=/full/path/to/trans_run.sh
+Exec=gnome-terminal -- /bin/bash -c "source /full/path/to/trans_func.sh && trans"
+
+Icon=/full/path/to/icon.png
+
+Terminal=true
+
+Type=Application
 ```
