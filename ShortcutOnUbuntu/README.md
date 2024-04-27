@@ -49,5 +49,5 @@ Categories=
 ```shell
 update-desktop-database ~/.local/share/applications
 # or
-update-desktop-database /usr/share/applications
+sudo update-desktop-database /usr/share/applications
 ```
