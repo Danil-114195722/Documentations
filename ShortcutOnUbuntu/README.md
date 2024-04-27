@@ -57,7 +57,7 @@ Name=Translator
 Comment=My terminal translator
 
 #Exec=/full/path/to/trans_run.sh
-Exec=gnome-terminal -- /bin/bash -c "source /full/path/to/trans_func.sh && trans"
+Exec=/bin/bash -c "source /full/path/to/trans_func.sh && trans"
 
 Icon=/full/path/to/icon.png
 
